@@ -1,5 +1,5 @@
-# fitnesstracker
+# Let's Eat!
 
-This is a progam created by Jules Arrighi and Bojana Skarich.
+This is a RESTful API created by Jules Arrighi and Bojana Skarich.
 
-It will track fitness ativities. 
+It will store recipes and allow API users to query them. 
