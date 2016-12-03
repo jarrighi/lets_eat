@@ -1,0 +1,42 @@
+[
+	{
+	 	"recipe_name":"chocolate crepe", 
+	 	"meal_type": "dessert",
+	 	"creator" : 1
+	},
+	{
+		"recipe_name":"bourbon sweet potatoes", 
+		"meal_type": "dinner",
+		"creator" : 1
+	},
+	{
+		"recipe_name":"glazed turkey",
+		"meal_type" : "dinner",
+		"creator" : 1
+	},
+	{
+		"recipe_name":"cranberry relish",
+		"meal_type" : "dinner", 
+		"creator" : 1
+	},
+	{
+		"recipe_name":"fennel and sourdough bread stuffing",
+		"meal_type" : "dinner", 
+		"creator" : 1
+	},
+	{
+		"recipe_name":"cherry rhubarb pie",
+		"meal_type" : "dessert", 
+		"creator" : 1
+	},
+	{
+		"recipe_name":"biscuits & gravy with egg",
+		"meal_type" : "breakfast", 
+		"creator" : 1
+	},
+	{
+		"recipe_name":"cherry rhubarb pie",
+		"meal_type" : "dessert", 
+		"creator" : 1
+	}
+]
