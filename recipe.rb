@@ -3,6 +3,7 @@
 require 'sinatra'
 require 'json'
 require 'mongo'
+
 include Mongo
 
 # Connecting to our MongoDB database
@@ -21,9 +22,11 @@ get '/recipes' do
 	db = client.database
 	recipes = client[:recipes]
 
-	recipes.find.each do |recipe| 
-		recipe.to_json
-	end
+	recipes.find(recipe_name: 'chocolate crepe').first.to_json
+
+	# recipes.find.each do |recipe| 
+		
+	# end
 
   	# [{ :recipe_name => 'chocolate crepe'}, 
   	# 	{:recipe_name => 'bourbon sweet potatoes' },
