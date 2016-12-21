@@ -17,6 +17,9 @@ class Recipe < Sinatra::Base
   	# get all the recipes
   	content_type :json
 
+
+    
+
   	client = Mongo::Client.new([ '127.0.0.1:27017' ], :database => 'lets_eat')
   	db = client.database
   	recipes = client[:recipes]
@@ -80,6 +83,9 @@ class Recipe < Sinatra::Base
   get '/user/:id/recipes' do
   	# Get all of the recipes for a specific user
   end 
+
+  run! if app_file == $0
+  
 end
 
 
